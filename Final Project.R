@@ -75,7 +75,7 @@ deposit_data_file$personal_loan_binary[which(deposit_data_file$loan=="yes")]=1
 
 head(deposit_data_file)
 
-#ggplot(deposit_data_file, aes(x = deposit_binary, y = age))
+
 
 #Model with all variables
 linear_model = lm(
